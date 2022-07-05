@@ -6,17 +6,17 @@ body{
     background-color: darkgray;
 }
 main{
-    margin: 80px 50px;
+    width: 800px;
+    margin: 80px auto;
     height: 400px;
     display: flex;
     align-items:flex-end;
     justify-content: center;
     background-color: rgb(41, 56, 56);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+   border-radius: 8px;
 }
 .teclado{
-    margin: 0 20px;
+    margin: 0 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -30,7 +30,7 @@ main{
     padding: 20px 0;
 }
 .branca{
-    width: 40px;
+    width: 34px;
     background-color: white;
     border: 1px solid black;
     border-top: none;
@@ -46,7 +46,7 @@ main{
 .preta{
     position: absolute;
     width: 25px;
-    height: 130px;
+    height: 135px;
     background-color: black;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
