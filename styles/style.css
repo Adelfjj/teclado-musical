@@ -64,15 +64,15 @@ main{
 .tcl2 .preta:nth-child(2){
     left: calc(33.33% - 12.5px);
 }
-.tcl2 > .preta:nth-child(4){
+.tcl2 .preta:nth-child(4){
     right: calc(33.33% - 12.5px);
 }
 .tcl3 .preta:nth-child(2){
     left: calc(25% - 12.5px);
 }
-.tcl3 > .preta:nth-child(4){
+.tcl3 .preta:nth-child(4){
     right: calc(50% - 12.5px);
 }
-.tcl3 > .preta:nth-child(6){
+.tcl3 .preta:nth-child(6){
     right: calc(25% - 12.5px);
 }
